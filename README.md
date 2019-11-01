@@ -1,5 +1,7 @@
 ### Stack
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kinrany/template.svg)](https://greenkeeper.io/)
+
  * Rollup
  * Typescript
  * React
