@@ -1,7 +1,11 @@
+### Stack
+
  * Rollup
  * Typescript
  * React
  * Eslint + Prettier
+
+### Commands
 
 ```bash
 # build for production
