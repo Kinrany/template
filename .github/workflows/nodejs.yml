@@ -3,7 +3,9 @@ name: Node CI
 on:
 
   push:
-    branches: [master]
+    branches:
+      - master
+      - greenkeeper/*
 
   pull_request:
     branches: [master]
