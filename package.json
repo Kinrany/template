@@ -6,6 +6,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
+    "lint-check": "prettier ./**/**.{js,jsx,ts,tsx,json,html} --check && eslint .",
     "lint-fix": "prettier ./**/**.{js,jsx,ts,tsx,json,html} --write && eslint . --fix",
     "test": "jest"
   },
