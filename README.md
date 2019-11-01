@@ -21,6 +21,9 @@ npm run dev
 # run tests
 npm run test
 
+# check code style
+npm run lint-check
+
 # format all code
 npm run lint-fix
 
