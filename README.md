@@ -1,3 +1,8 @@
+ * Rollup
+ * Typescript
+ * React
+ * Eslint + Prettier
+
 ```bash
 # build for production
 npm run build
