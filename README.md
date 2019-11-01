@@ -4,16 +4,20 @@
  * Typescript
  * React
  * Eslint + Prettier
+ * Jest
 
 ### Commands
 
 ```bash
-# build for production
-npm run build
-
 # start a dev server
 npm run dev
 
+# run tests
+npm run test
+
 # format all code
 npm run lint-fix
+
+# build for production
+npm run build
 ```
