@@ -10,7 +10,8 @@
     "lint-fix": "prettier ./**/**.{js,jsx,ts,tsx,json,html} --write && eslint . --ext=js,jsx,ts,tsx --fix",
     "//": "https://github.com/prettier/eslint-config-prettier#cli-helper-tool",
     "eslint-config-prettier-check": "eslint --print-config src/index.tsx | eslint-config-prettier-check",
-    "test": "jest"
+    "test": "jest",
+    "gh-pages-prepare": "git checkout gh-pages && cp -rf ./public/* . && git commit -am \"Automatically update gh-pages\""
   },
   "author": "kinrany",
   "license": "MPL-2.0",
