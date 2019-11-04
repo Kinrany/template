@@ -4,6 +4,8 @@
 
 Starter kit for static web apps
 
+https://kinrany.github.io/template
+
 ### Stack
 
  * Rollup
