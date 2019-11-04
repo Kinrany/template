@@ -8,12 +8,13 @@ module.exports = {
     sourceType: "module",
   },
   extends: [
+    "airbnb/hooks",
     "airbnb-typescript",
     "prettier",
     "prettier/@typescript-eslint",
     "prettier/react",
   ],
-  plugins: ["@typescript-eslint", "prettier", "jest"],
+  plugins: ["prettier", "jest"],
   rules: {
     "prettier/prettier": ["error"],
     "@typescript-eslint/no-unused-vars": ["error", { varsIgnorePattern: "^_" }],
