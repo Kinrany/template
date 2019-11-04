@@ -23,7 +23,7 @@ export default {
     commonjs({
       namedExports: {
         // https://github.com/reduxjs/react-redux/issues/643
-        "node_modules/react/index.js": ["createElement, useState"],
+        "node_modules/react/index.js": ["createElement", "useState"],
         "node_modules/react-dom/index.js": ["render"],
       },
     }),
