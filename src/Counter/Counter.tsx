@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 
 export const increment = (count: number) => count + 1;
 export const decrement = (count: number) => count - 1;
