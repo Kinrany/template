@@ -1,13 +1,4 @@
 module.exports = {
-  env: {
-    browser: true,
-    es6: true,
-  },
-  extends: ["airbnb", "prettier"],
-  globals: {
-    Atomics: "readonly",
-    SharedArrayBuffer: "readonly",
-  },
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
@@ -17,7 +8,16 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react", "react-hooks", "@typescript-eslint", "prettier"],
+  extends: ["airbnb", "airbnb-typescript", "prettier"],
   rules: {
     "prettier/prettier": ["error"],
+  },
+  env: {
+    browser: true,
+    es6: true,
+  },
+  globals: {
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly",
   },
 };
