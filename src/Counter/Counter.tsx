@@ -8,9 +8,13 @@ export function Counter() {
 
   return (
     <div>
-      <button onClick={() => setCount(decrement(count))}>-</button>
+      <button type="button" onClick={() => setCount(decrement(count))}>
+        -
+      </button>
       <span style={{ margin: 5 }}>{count}</span>
-      <button onClick={() => setCount(increment(count))}>+</button>
+      <button type="button" onClick={() => setCount(increment(count))}>
+        +
+      </button>
     </div>
   );
 }

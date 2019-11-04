@@ -13,13 +13,14 @@ module.exports = {
     "prettier/@typescript-eslint",
     "prettier/react",
   ],
-  plugins: ["@typescript-eslint", "prettier"],
+  plugins: ["@typescript-eslint", "prettier", "jest"],
   rules: {
     "prettier/prettier": ["error"],
   },
   env: {
     browser: true,
     es6: true,
+    "jest/globals": true,
   },
   globals: {
     Atomics: "readonly",
