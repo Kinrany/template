@@ -11,7 +11,7 @@
     "//": "https://github.com/prettier/eslint-config-prettier#cli-helper-tool",
     "eslint-config-prettier-check": "eslint --print-config src/index.tsx | eslint-config-prettier-check",
     "test": "jest",
-    "gh-pages-prepare": "git checkout gh-pages && cp -rf ./public/* . && git commit -am \"Automatically update gh-pages\""
+    "gh-pages-prepare": "git checkout gh-pages && cp -rf ./public/dist ./dist && git commit -am \"Automatically update gh-pages\" --allow-empty"
   },
   "author": "kinrany",
   "license": "MPL-2.0",
