@@ -8,6 +8,8 @@
     "dev": "rollup -c -w",
     "lint-check": "prettier ./**/**.{js,jsx,ts,tsx,json,html} --check && eslint .",
     "lint-fix": "prettier ./**/**.{js,jsx,ts,tsx,json,html} --write && eslint . --fix",
+    "//": "https://github.com/prettier/eslint-config-prettier#cli-helper-tool",
+    "eslint-config-prettier-check": "eslint --print-config src/index.tsx | eslint-config-prettier-check",
     "test": "jest"
   },
   "author": "kinrany",
@@ -19,7 +21,7 @@
     "@typescript-eslint/eslint-plugin": "^2.5.0",
     "@typescript-eslint/parser": "^2.5.0",
     "eslint": "^6.5.1",
-    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-typescript": "^6.0.0",
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",

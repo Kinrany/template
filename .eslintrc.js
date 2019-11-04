@@ -7,8 +7,13 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
-  plugins: ["react", "react-hooks", "@typescript-eslint", "prettier"],
-  extends: ["airbnb", "airbnb-typescript", "prettier"],
+  extends: [
+    "airbnb-typescript",
+    "prettier",
+    "prettier/@typescript-eslint",
+    "prettier/react",
+  ],
+  plugins: ["@typescript-eslint", "prettier"],
   rules: {
     "prettier/prettier": ["error"],
   },
@@ -20,4 +25,5 @@ module.exports = {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
   },
+  reportUnusedDisableDirectives: true,
 };
